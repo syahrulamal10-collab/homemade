@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BARA GOURMET ACEH</title>
+    <style>
+        /* CSS Dasar untuk Desain Menarik dan Responsif */
+        
+        header {
+            background-image: ('url('"C:\Users\RIAN MARDANIEL\Downloads\logo.jpg"')') ; /* Background foto hanya di header; ganti dengan URL foto asli Anda */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 80px 40px; /* Padding lebih besar untuk ruang header */
+            position: relative;
+        }
+        /* Overlay untuk header agar teks mudah dibaca */
+        header::before {
+            content: '';
+            position: absolute;
+        }
+        
+        header {
+            background-color: rgb(0, 0, 0); /* Semi-transparan agar background terlihat */
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-bottom: 40px;
+        }
+        .menu-item {
+            background-color: rgba(255, 255, 255, 0.95); /* Semi-transparan untuk kontras */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            width: 250px;
+            transition: transform 0.3s;
+        }
+        .menu-item:hover {
+            transform: scale(1.05);
+        }
+        .menu-item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .contact {
+            background-color: rgba(255, 255, 255, 0.95); /* Semi-transparan untuk kontras */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            text-align: center;
+        }
+        .contact h2 {
+            margin-top: 0;
+        }
+        .whatsapp-btn {
+            display: inline-block;
+            background-color: #25d366;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .whatsapp-btn:hover {
+            background-color: #128c7e;
+        }
+        /* Responsif untuk layar kecil */
+        @media (max-width: 768px) {
+            .menu-item {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di lapak BARA GOURMET ACEH</h1>
+        <img src="C:\Users\RIAN MARDANIEL\Downloads\logo.jpg"style="width:300px;height:200px;">
+        <p>Nikmati berbagai masakan lezat kami!</p>
+        <p>Open 16.30-23.30</p>
+        <p>Price Start From 12k-20k</p>
+    </header>
+
+    <div class="container">
+        <!-- Bagian Menu Dagangan -->
+        <section class="menu">
+            <div class="menu-item">
+                <img src="C:\Users\RIAN MARDANIEL\Downloads\nasi goreng.jpg" alt="Nasi Goreng">
+                <h3>Nasi Goreng</h3>
+                <p>Nasi goreng spesial dengan bumbu rahasia.</p>
+            </div>
+            <div class="menu-item">
+                <img src="C:\Users\RIAN MARDANIEL\Downloads\nasi putih.jpeg" alt="Nasi Putih">
+                <h3>Nasi Putih</h3>
+                <p>Nasi putih hangat, cocok untuk lauk apa saja.</p>
+            </div>
+            <div class="menu-item">
+                <img src="C:\Users\RIAN MARDANIEL\Downloads\bakar.jpg" alt="Ayam Bakar">
+                <h3>Ayam Bakar</h3>
+                <p>Ayam bakar dengan bumbu kecap yang gurih.</p>
+            </div>
+            <div class="menu-item">
+                <img src="C:\Users\RIAN MARDANIEL\Downloads\ikn.jpg" alt="Ikan">
+                <h3>Ikan</h3>
+                <p>Ikan segar yang dibakar dengan hati.</p>
+            </div> 
+            <div class="menu-item">
+                <img src="C:\Users\RIAN MARDANIEL\Downloads\goreng.jpg" alt="Ayam Goreng">
+                <h3>Ayam Goreng</h3>
+                <p>Ayam Goreng dengan sambal khas Bara Gourmet Aceh.</p>
+            </div>
+            <div class="menu-item">
+                <img src="C:\Users\RIAN MARDANIEL\Downloads\steak.jpg" alt="Steak Ayam">
+                <h3>Steak Ayam</h3>
+                <p>Steak Ayam yang dijamin juicynya.</p>
+            
+            </div>
+        </section>
+
+        <!-- Bagian Informasi Kontak -->
+        <section class="contact">
+            <h2>Hubungi Kami</h2>
+            <p><strong>Instagram:</strong> <a href="https://instagram.com/bara_gourmet_aceh" target="_blank">@baragourmetaceh</a></p>
+            <p><strong>Tiktok:</strong> <a href="https://www.tiktok.com/@baragourmetaceh" target="_blank">@baragourmet</a></p>
+            <p><strong>WhatsApp:</strong> <a href="https://wa.me/6289601043651" target="_blank">+62 896-0104-3651</a></p>
+            <p><strong>Alamat:</strong> <a href="https://share.google/ZYh5jZJTu5ixlV6u4" target="_blank">Laras Coffee Lamnyong</a></p>
+            <a href="https://wa.me/628123456789?text=Halo,%20saya%20ingin%20pesan%20satu%20dong%20bang%20aan%20ganteng" class="whatsapp-btn" target="_blank">Pesan via WhatsApp</a>
+        </section>
+    </div>
+</body>
+</html>
