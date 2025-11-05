@@ -1,7 +1,7 @@
 {
-  "name": "hello-world-ts",
+  "name": "syahrul-amal-ts",
   "version": "1.0.0",
-  "description": "A simple Hello World project in TypeScript.",
+  "description": "A simple syahrul amal project in TypeScript.",
   "main": "src/index.ts",
   "scripts": {
     "build": "tsc",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/hello-world-ts.git"
+    "url": "https://github.com/syahrulamal/hello-world-ts.git"
       "author": "Syahrul Amal",
   "license": "MIT"
 }
